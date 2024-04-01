@@ -1,0 +1,193 @@
+:root{
+    /* COLORES */
+    --primario: #0C2B3D;
+    --secundario: #1A6D92;
+    --terciario: #40A9B9;
+    --blanco: #DEE7E7;
+    --negro: #1F1E1E;
+    
+    /* FUENTES */
+    --fuentePrimario: 'Laila', serif;
+    --fuenteSecundario: 'Space Mono', monospace;
+    --fuenteTexto: 'Merriweather Sans', sans-serif;
+
+    /* SEPARACION */
+    --separacion: 5rem;
+}
+
+header.encabezado {
+    background-image: url('../img/olaya.jpg');
+    /* AJUSTAR IMAGEN */
+    background-size: cover; /* ajustar de acuerdo con el div*/
+    background-repeat: no-repeat; /* No repite la imagen dentro del div*/
+    background-color: rgba(0, 0, 0, 1);
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+.contenido-encabezado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 2.5rem 2.5rem 2.5rem;
+    color: var(--blanco);
+}
+
+.contenido-encabezado h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.contenido-encabezado a {
+    background: rgb(12,43,61);
+    background: linear-gradient(90deg, rgba(12,43,61,1) 0%, rgba(26,109,146,1) 35%);
+    padding: 0.2rem 1.1rem;
+    /* Pasa una frase a MAYÚSCULAS*/
+    text-transform: uppercase; /* uppercase : TODA la frase*/
+    border: 2px solid var(--blanco);
+    border-radius: 50px; /* FORMA DEL BOTON;GLOSOR*/
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section-header {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    
+}
+
+/* PRIEMRA PARTE DE LA SCCION DE LA BASE */
+.title1{
+    color: var(--terciario);
+}
+
+
+.section-base .cuadro-base{
+    text-align: center;
+    justify-content: space-around;
+    display:flex;
+    padding: initial;  
+}
+
+.cuadro-base {
+    text-align: center;
+    justify-content: flex;
+    display:flex;
+}
+
+.cuadro-base img{
+    text-align: center;
+    /*border: solid #40A9B9;*/
+    display: flex;
+    margin: auto;
+    width: fit-content;
+    justify-content: space-around;
+    padding-top: 5rem;
+}
+
+.cuadro-base .base1 img h2 p a{
+    text-align: left;
+    padding: initial;
+}
+
+.base1 a{
+    margin: right;
+    padding: center;
+    color: var(--secundario);
+}
+
+/* SEGUNDA PARTE DE LA BASE*/
+
+.section-base2{
+    padding-bottom: 5rem;
+}
+
+.section-base2 .cuadro-base2{
+    text-align: center;
+    justify-content: space-around;
+    display:flex;
+    padding: initial;
+}
+
+.cuadro-base2 {
+    text-align: center;
+    justify-content: flex;
+    display:flex;
+}
+
+.cuadro-base2 img{
+    text-align: center;
+    /*border: solid #40A9B9;*/
+    display: flex;
+    margin: auto;
+    width: fit-content;
+    justify-content: space-around;
+    padding-top: 5rem;  
+}
+
+.cuadro-base2 .base3 img h2 p a{
+    text-align: left;
+    padding: initial;
+}
+
+.base2 a{
+    margin: right;
+    padding: center;
+    color: var(--secundario);
+}
+
+.base3 a{
+    margin: right;
+    padding: center;
+    color: var(--secundario);
+}
+
+.base4 a{
+    margin: right;
+    padding: center;
+    color: var(--secundario);
+}
+
+/* footer*/
+.redes{
+    background-color: var(--footer);
+    display: flex;
+    padding: 1rem;
+    border-radius: 5rem;
+}
+
+/* footer final*/
+footer h3{
+    color: var(--negro);
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-family: var(--fuentePrimario);
+}
+  
+footer nav{
+    margin-left: 1rem;
+    line-height: 5rem;
+}
+  
+footer nav ul li{
+    font-family: var(--fuenteTexto);
+    line-height: 3rem;
+    color: var(--negro); 
+}
+
+
+
+
+
+
+
+
+
+
+
